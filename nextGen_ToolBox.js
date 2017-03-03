@@ -1,4 +1,3 @@
-/*global jQuery, unsafeWindow, GM_getValue, GM_setValue, GM_setClipboard, GM_openInTab, GM_info, window, document */
 var cm = unsafeWindow.ContextManager,
     em = unsafeWindow.editMode,
     cmv = cm.getVersion(),
