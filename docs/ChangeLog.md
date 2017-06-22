@@ -1,4 +1,15 @@
 # Change Log
+## v3.2.8
+**(6/22/2017)**
+* Fixed the Show Navigation tool. :exclamation:
+  * The subnavigation was being displayed with white text on a white background.
+
+<br><br>
+
+---
+
+<br><br>
+
 ## v3.2.7
 **(4/5/2017)**
 * Fixed the 404 Link checker. :exclamation:
