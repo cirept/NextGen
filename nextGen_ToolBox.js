@@ -1750,7 +1750,7 @@
                     .append('.tetraShowNav { display: block !important; }')
                     .append('.linkChecked { background: linear-gradient(to left, rgba(161, 255, 206, 0.75) , rgba(250, 255, 209, 0.75)), #ffffff !important; color: #999999 !important; }')
                     .append('.nextgenShowNav { display: inline-block !important; position: absolute !important; background: white !important; margin: 0 !important; width: 150px !important; }')
-                    .append('.showNavAdd { width: 150px !important; padding: 0 !important; font-size: 15px !important; }'); // end of addStyles
+                    .append('.showNavAdd { width: 150px !important; padding: 0 !important; font-size: 15px !important; background: black; color: white; }'); // end of addStyles
             },
             // ----------------------------------------
             // tier 2 functions
@@ -1761,6 +1761,12 @@
                 // loop through Legend Content list
                 for (key in $contentArray) {
                     value = $contentArray[key];
+                    
+                    // if site is NEXTGEN skip adding major page
+                    if (value === 'Major Page' && this.isNextGenPlatform) {
+                        continue;
+                    }
+                    
                     // build listing element
                     this.$listItem = jQuery('<li>').attr({
                         class: 'legendContent ' + key
