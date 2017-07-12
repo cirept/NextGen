@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name QA Tool
 // @namespace www.cobaltgroup.com/
-// @version 3.2.9
+// @version 3.3.0
 // @author Eric Tanaka
 // @include http:*
 // @include https:*
 // @description QA Toolbar
-// @downloadURL https://rawgit.com/cirept/NextGen/master/nextGen_meta.js
+// @downloadURL https://raw.githubusercontent.com/cirept/QA_Toolbox/3.3.1/assets/js/meta.js
 // @require https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js
 // @require https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js
 // @require https://cdn.rawgit.com/cirept/NextGen/v3.2.9/nextGen_ToolBox.js
