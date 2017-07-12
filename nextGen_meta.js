@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name QA Toolbar - TEST - Advanced NextGen Support
 // @namespace www.cobaltgroup.com/
-// @version 3.2.11-TESTER
+// @version 3.2.12-TESTER
 // @author Eric Tanaka
 // @include http:*
 // @include https:*
 // @description Support to nextgen increased.  Added modified functionality of link checker, image checker, and 404 link checker.
-// @downloadURL https://raw.githubusercontent.com/cirept/NextGen/separateCss/nextGen_meta.js
+// @downloadURL https://raw.githubusercontent.com/cirept/QA_Toolbox/master/assets/js/meta.js
 // @require https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js
 // @require https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js
 // @require https://raw.githubusercontent.com/cirept/NextGen/separateCss/nextGen_ToolBox.js
