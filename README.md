@@ -1,5 +1,9 @@
 [![GitHub release](https://img.shields.io/github/release/cirept/NextGen.svg)](https://github.com/cirept/NextGen/releases)   [![GitHub issues](https://img.shields.io/github/issues/cirept/NextGen.svg)](https://github.com/cirept/NextGen/issues)
 
+*** *repo moved : This page will no longer be updated.  Please go to the new location and bookmark.* ***
+
+[instructions now live here](https://cirept.github.io/QA_Toolbox/)
+
 # Tool Descriptions<br>
 
 ![QA Tool Layout](https://github.com/cirept/NextGen/raw/master/images/QA_tool_layout.png)
