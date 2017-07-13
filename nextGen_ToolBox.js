@@ -1322,7 +1322,7 @@
                                 //                                if ($currentLink.parent().attr('class').indexOf('co-card') > -1) {
                                 if ($currentLink.closest('li').attr('class').indexOf('co-card') > -1) {
                                     //                                    debugger;
-                                                                        isQLPlink = true;
+                                    isQLPlink = true;
                                     $currentLink = $currentLink.closest('li').find('a:first');
                                     isImageLink = false;
                                 }
@@ -2189,7 +2189,7 @@
                     .append('.tetraShowNav { display: block !important; }')
                     .append('.linkChecked { background: linear-gradient(to right, rgba(249,255,209,0.75) 0%, rgba(160,255,206,0.75) 100%) !important; color: #999999 !important; }')
                     .append('.nextgenShowNav { display: inline-block !important; position: absolute !important; background: white !important; margin: 0 !important; width: 150px !important; z-index: 100; }')
-                    .append('.showNavAdd { width: 150px !important; padding: 0 !important; font-size: 15px !important; }'); // end of addStyles
+                    .append('.showNavAdd { width: 150px !important; padding: 0 !important; font-size: 15px !important; background: black; color: white; }'); // end of addStyles
             },
             // ----------------------------------------
             // tier 2 functions
@@ -2203,10 +2203,8 @@
                     // build listing element
 
                     // if site is NEXTGEN skip adding major page
-                    if (value === 'Major Page') {
-                        if (this.isNextGenPlatform) {
-                            continue;
-                        }
+                    if (value === 'Major Page' && this.isNextGenPlatform) {
+                        continue;
                     }
 
                     this.$listItem = jQuery('<li>').attr({
