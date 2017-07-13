@@ -1,18 +1,8 @@
+[![GitHub release](https://img.shields.io/github/release/cirept/NextGen.svg)](https://github.com/cirept/NextGen/releases)   [![GitHub issues](https://img.shields.io/github/issues/cirept/NextGen.svg)](https://github.com/cirept/NextGen/issues)
+
 # Tool Descriptions<br>
 
 ![QA Tool Layout](https://github.com/cirept/NextGen/raw/master/images/QA_tool_layout.png)
-
-## Other Useful Links<br>
-[Installation Instructions](https://github.com/cirept/NextGen/blob/master/guides/INSTALL.md)<br>
-[Change Log](https://github.com/cirept/NextGen/blob/master/guides/CHANGELOG.md)<br>
-
-<br>
-<br>
-
----
-
-<br>
-<br>
 
 # **Page Information Panel**<br>
 
@@ -582,7 +572,7 @@ This will cause the 'auto apply modifiers' tool (when switched on) to search the
 
 ## Show Autofill Tags?<br>
 
-![Autofill Toggle DEMO](https://github.com/cirept/NextGen/raw/master/gifs/autofillToggleDEMO.gif")
+![Autofill Toggle DEMO](https://github.com/cirept/NextGen/raw/master/gifs/autofillToggleDEMO.gif)
 
 - This tool controls the logic of the 'auto apply modifiers' toggle.<br>
 - When switching this toggle into the **ON** or **OFF** position will cause the main tool to act differently.<br>
@@ -592,7 +582,7 @@ This will cause the 'auto apply modifiers' tool (when switched on) to search the
 
 ### ON position<br>
 
-![Autofill Toggle ON](https://github.com/cirept/NextGen/raw/master/images/showautofillToggleON.png")
+![Autofill Toggle ON](https://github.com/cirept/NextGen/raw/master/images/showautofillToggleON.png)
 
 - This will cause the 'auto apply modifiers' tool (when switched on) to search the current URL and see if ***"disableAutofill=true"*** is present in the URL.<br>
 
@@ -610,7 +600,7 @@ This will cause the 'auto apply modifiers' tool (when switched on) to search the
 
 ### OFF position<br>
 
-![Autofill Toggle OFF](https://github.com/cirept/NextGen/raw/master/images/showautofillToggleHighlightOFF.png")
+![Autofill Toggle OFF](https://github.com/cirept/NextGen/raw/master/images/showautofillToggleHighlightOFF.png)
 
 
 - This will cause the 'auto apply modifiers' tool (when switched on) to search the current URL and see if ***"disableAutofill=false"*** is present in the URL.<br>
@@ -623,7 +613,6 @@ This will cause the 'auto apply modifiers' tool (when switched on) to search the
 - If ***"disableAutofill=false"*** is detected in the URL, nothing will happen. :]
     - http://nitra.proof.gmpsdealer.com/content15?disableAutofill=false
 
-
 <br>
 <br>
 
@@ -632,6 +621,6 @@ This will cause the 'auto apply modifiers' tool (when switched on) to search the
 <br>
 <br>
 
-### Other Useful Links<br>
-[Installation Instructions](https://github.com/cirept/NextGen/blob/master/guides/INSTALL.md)<br>
-[Change Log](https://github.com/cirept/NextGen/blob/master/guides/CHANGELOG.md)<br>
+# Other Useful Links<br>
+## [Installation Instructions](docs/Install.md)<br>
+## [Change Log](docs/ChangeLog.md)<br>

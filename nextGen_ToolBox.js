@@ -2187,8 +2187,10 @@
                     // styles of colored overlay placed on images
                     .append('.majorPage { color: #ffffff; background: linear-gradient(to left, rgba(255, 179, 71, .75) , rgba(255, 204, 51, .75)) !important; }')
                     .append('.tetraShowNav { display: block !important; }')
-                    .append('.linkChecked { background: linear-gradient(to right, rgba(249,255,209,0.75) 0%, rgba(160,255,206,0.75) 100%) !important; color: #999999 !important; }')
-                    .append('.nextgenShowNav { display: inline-block !important; position: absolute !important; background: white !important; margin: 0 !important; width: 150px !important; z-index: 100; }')
+                    .append('.linkChecked { background: linear-gradient(to left, rgba(161, 255, 206, 0.75) , rgba(250, 255, 209, 0.75)), #ffffff !important; color: #999999 !important; }')
+                    .append('.nextgenShowNav { display: inline-block !important; position: absolute !important; background: white !important; margin: 0 !important; width: 150px !important; }')
+                    .append('body header .menu>nav>ul .showNavAdd>a { color: white; }')
+                    .append('body header .menu>nav>ul .showNavAdd>span { color: white; }')
                     .append('.showNavAdd { width: 150px !important; padding: 0 !important; font-size: 15px !important; background: black; color: white; }'); // end of addStyles
             },
             // ----------------------------------------
@@ -2200,6 +2202,12 @@
                 // loop through Legend Content list
                 for (key in $contentArray) {
                     value = $contentArray[key];
+
+                    // if site is NEXTGEN skip adding major page
+                    if (value === 'Major Page' && this.isNextGenPlatform) {
+                        continue;
+                    }
+
                     // build listing element
 
                     // if site is NEXTGEN skip adding major page

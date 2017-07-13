@@ -1,7 +1,7 @@
 theme: jekyll-theme-leap-day
 title: [QA Tool]
-description: [This is a collection of tools to use speed up the QA process on a CDK site.]
+description: [Tools to help speed up the QA process.]
 ---
-title: My page
+title: QA Tool
 permalink: mypageurl.html
 ---
